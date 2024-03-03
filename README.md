@@ -40,12 +40,14 @@ torch.nn.Module是所有网络的基类，因此我们的模型也应该继承�
 <img src="./2.png" alt="1" style="zoom: 50%;" />
 
 其中，输入层之后的激活函数使用的是LeakyReLU激活函数，输入0.02用于控制负半轴的斜率。它是一种专门设计用于解决Dead ReLU问题的激活函数：
+
 $$
 LeakyReLU(x)=\begin{cases}
 x,x>0 \\
 \alpha x,x\leq0
 \end{cases}
 $$
+
 Leaky ReLU函数的特点：
 
 - Leaky ReLU函数通过把x xx的非常小的线性分量给予负输入0.01 x 0.01x0.01x来调整负值的零梯度问题。
