@@ -1,7 +1,9 @@
 # 基于BP三层全连接神经网络的MNIST手写数字识别
 ## 1.前言：
 
-代码采用Python语言，借助的是PyTorch库。
+代码采用Python语言，建议vscode或jupyter notebook打开源代码。借助的是PyTorch库。
+MNIST训练数据下载地址：https://pjreddie.com/media/files/mnist_train.csv
+MNIST测试数据下载地址：https://pjreddie.com/media/files/mnist_test.csv
 
 关于pytorch库的简单介绍：
 
